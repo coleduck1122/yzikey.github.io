@@ -142,9 +142,7 @@ live2d:
     # 是否使用一言
 #    hitokoto: true
 
-# 关闭 highlight
-highlight:
-  enable: false
+
 # 启用 prism
 prismjs:
   enable: true
