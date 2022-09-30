@@ -142,6 +142,17 @@ live2d:
     # 是否使用一言
 #    hitokoto: true
 
+# 关闭 highlight
+highlight:
+  enable: false
+# 启用 prism
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: false
+  tab_replace: ''
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
