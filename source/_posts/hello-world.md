@@ -1,47 +1,78 @@
 ---
-title: Hello World
+title: Hello World!
 tags: 
-- 杂项
+- 水
 categories:
 - 杂项
 
 theme: wave
 password: mima
-abstract: 这是一篇加密文章，您需要输入密码。不过这篇文章不重要，所以密码我不告诉你。不过你可以试着点进来解一解密。
+abstract: 这是一篇加密文章，你知道密码是什么吗？
 message: 请输入密码，提示：远在天边，近在眼前
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+#### C
 
-### Create a new post
+```
+#include <stdio.h>
 
-``` bash
-$ hexo new "My New Post"
+int main() 
+{
+    char str[50] = {0};
+    scanf("%s", str);
+    printf("Hello %s\n", str);
+    return 0;
+}
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+#### C++
 
-### Run server
+```
+#include <iostream>
+#include <cstring>
 
-``` bash
-$ hexo server
+using namespace std;
+/*
+using std::cin;
+using std::cout;
+using std::endl;
+*/
+
+int main() 
+{
+    string str;
+    cin >> str;
+    cout << "Hello " << str << endl;
+    return 0;
+}
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+#### Python
 
-### Generate static files
-
-``` bash
-$ hexo generate
+```
+def main():
+    str = input()
+    print("hello " + str)
+main()
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+#### Java
 
-### Deploy to remote sites
+```
+import java.util.Scanner;
 
-``` bash
-$ hexo deploy
+public class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        System.out.println("Hello " + str);
+        sc.close();
+    }
+}
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+#### html
+
+```
+
+```

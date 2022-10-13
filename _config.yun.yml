@@ -134,7 +134,7 @@ banner:
     icon: ri:arrow-down-s-line
 
 wordcloud:
-  enable: true
+  enable: false
 
 categories:
   杂项: 'CCFFFF'
