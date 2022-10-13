@@ -1,7 +1,7 @@
 ---
 title: My First Blog
 tags: 
-- 水
+- 杂谈
 categories:
 - 杂项
 
