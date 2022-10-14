@@ -1,5 +1,5 @@
 ---
-title: 中国剩余定理
+title: FFT/NTT
 tags:
 - FFT/NTT
 categories:
